@@ -10,7 +10,7 @@ import {
   DELETE_MANY,
 } from 'react-admin';
 import debug from 'debug';
-import diff from 'object-diff';
+import { diff } from 'deep-object-diff';
 
 const dbg = debug('ra-data-feathers:rest-client');
 
